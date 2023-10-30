@@ -1,3 +1,5 @@
+# napster-to-spotify
+Tool to convert napster playlists to spotify playlists
 
 Step 1: Clone repo to local 
 
