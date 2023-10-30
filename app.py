@@ -44,14 +44,22 @@ def getTracks():
 
     spotify_access_token = token_info['access_token']
 
+    print("1")
+
     # Get napster access token
     napster_access_token = get_user_info_napster(napster_api_key, napster_api_secret, username_napster, password_napster)['access_token']
     
+    print("2")
+
     # Get all playlists
     napster_playlists = get_all_playlists_napster(napster_access_token)
 
+    print("3")
+
     # Get important playlist info
     napster_playlists_info = get_playlists_info_napster(napster_playlists)
+
+    print("4")
 
     # #############################
     # TODO: 

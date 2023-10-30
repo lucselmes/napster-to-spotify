@@ -1,7 +1,8 @@
-credentials.py
 toSpotifyPlaylistConverter.egg-info
 dist
 build
 .cache
 __pycache__
 testing.ipynb
+venv
+setup.py
